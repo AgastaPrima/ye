@@ -12,7 +12,7 @@ public class PlayerControl : MonoBehaviour
 	public float moveForce = 375f;			// Amount of force added to move the player left and right.
 	public float maxSpeed = 5f;				// The fastest the player can travel in the x axis.
 	public AudioClip[] jumpClips;			// Array of clips for when the player jumps.
-	public float jumpForce = 1000f;			// Amount of force added when the player jumps.
+	public float jumpForce = 2000f;			// Amount of force added when the player jumps.
 
 
 	private Transform groundCheck;			// A position marking where to check if the player is grounded.
